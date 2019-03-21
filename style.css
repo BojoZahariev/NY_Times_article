@@ -5,6 +5,7 @@ html {
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 
@@ -106,14 +107,12 @@ h1 {
   margin-left: 20%;
   margin-top: 30px;
   color: #121212;
-  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   font-style: italic;
   line-height: 46.4px;
 }
 
 .pic1 {
-  font-family: Georgia, Times, "Times New Roman", serif;
   width: 84vw;
   margin: auto;
 }
@@ -128,7 +127,6 @@ h1 {
   color: #666;
   text-align: left;
   font-size: 15px;
-  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .captionS {
@@ -142,7 +140,6 @@ h1 {
 .container {
   margin: 40px auto;
   width: 600px;
-  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 h3 {
@@ -221,7 +218,6 @@ p {
 .caption2 {
   color: #666;
   font-size: 15px;
-  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .telescope-img {
@@ -258,12 +254,14 @@ p {
   display: flex;
   max-width: 1200px;
   margin: auto;
-  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .bottom-left {
-  width: 60%;
+  width: 70%;
   max-width: 852px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
   border-top: 1px solid #000;
 }
 
@@ -272,25 +270,45 @@ p {
   color: #333;
   font-size: 16px;
   cursor: pointer;
+  width: 100%;
+  
 }
 
 .figure-container {
   width: 247px;
-  background-color:  green;
+  padding-bottom: 10px;
+}
+
+.bottom-figure {
+  width: 100%;
+  margin-left: 0;
 }
 
 .bottom-figure img {
-  width: 247px;
-  height: 164px;
+  width: 100%;
 }
 
 .figcaption-bottom {
   text-align: right;
+  color: #999;
+  font-size: 10px;
+}
+
+.figure-container a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 22px;
+  color: #121212;
+}
+
+.figure-container span {
+  color: #999;
+  font-size: 12px;
 }
 
 .bottom-right {
-  border-top: 1px solid #000;
+  background-color: grey;
   max-width: 315px;
   margin-left: 30px;
-  width: 40%;
+  width: 30%;
 }
