@@ -253,6 +253,7 @@ p {
 .bottom {
   display: flex;
   max-width: 1200px;
+  padding-left: 3%;
   margin: auto;
 }
 
@@ -262,7 +263,6 @@ p {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  border-top: 1px solid #000;
 }
 
 .more-in-space {
@@ -271,12 +271,13 @@ p {
   font-size: 16px;
   cursor: pointer;
   width: 100%;
-  
+  border-top: 1px solid #000;
+  padding-top: 20px;
 }
 
 .figure-container {
-  width: 247px;
-  padding-bottom: 10px;
+  max-width: 31%;
+  padding-bottom: 20px;
 }
 
 .bottom-figure {
@@ -291,7 +292,8 @@ p {
 .figcaption-bottom {
   text-align: right;
   color: #999;
-  font-size: 10px;
+  font-size: 9.5px;
+  padding-top: 5px;
 }
 
 .figure-container a {
@@ -306,9 +308,59 @@ p {
   font-size: 12px;
 }
 
+#paid-figcaption {
+  color: #000000;
+  font-size: 9.5px;
+  font-weight: bold;
+  padding: 6px 10px 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#paid-title {
+  color: #121212;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 0px 10px 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#huawai-logo {
+  width: 80.55px;
+  height: 25px;
+  padding-left: 10px;
+}
+
 .bottom-right {
-  background-color: grey;
   max-width: 315px;
   margin-left: 30px;
   width: 30%;
+}
+
+.bottom-right ul {
+  margin-top: 20px;
+  border-top: 1px solid rgb(226, 226, 226);
+  list-style: none;
+  text-align: left;
+}
+
+.bottom-right ul li a {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 15px 0px;
+  text-align: left;
+  color: #121212;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+footer {
+  height: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .figure-container {
+    max-width: 48%;
+    padding-bottom: 10px;
+  }
 }
