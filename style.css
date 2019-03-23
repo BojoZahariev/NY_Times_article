@@ -354,8 +354,175 @@ p {
   line-height: 22px;
 }
 
+
+/*Footer*/
+
 footer {
-  height: 200px;
+  max-width: 1200px;
+  background-color: #fff;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.d-border {
+  width: 100%;
+  display: block;
+  height: 2px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  border-top: 2px solid rgb(226, 226, 226);
+}
+
+.footer-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  width: 225px;
+  height: 60px;
+}
+
+.go-to {
+  margin-top: 20px;
+  color: #6288a5;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  background-color: #fff;
+  margin: auto;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title {
+  font-size: 13px;
+}
+
+section {
+  width: 16%;
+}
+
+section ul {
+  text-align: left;
+}
+
+section ul li {
+  display: block;
+  width: 100%;
+}
+
+section ul li a {
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 5px 0px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.right-sec {
+  padding-left: 15px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.home-delivery {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+.svg {
+  width: 15px;
+  padding-right: 5px;
+}
+
+.newsletters li a {
+  font-size: 11px;
+}
+
+ul.mobi {
+  margin-top: 230px;
+  list-style-type: none;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 10px;
+}
+
+.mobi li a {
+  font-size: 11px;
+}
+
+
+/*Bottom nav*/
+
+.bottom-nav {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 9px;
+  border-top: 1px solid #ebebeb;
+  height: 55px;
+}
+
+.bottom-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.bottom-nav ul li a {
+  font-size: 11px;
+  color: #999;
+  font-weight: 300;
+}
+
+
+/* Bottom fixed bar*/
+
+.bottom-bar {
+  height: 55px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid black;
+}
+
+.bottom-bar-text {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.subs {
+  display: inline;
+  position: absolute;
+  right: 10px;
+}
+
+.subscribe-now {
+  float: right;
+  padding: 22px 0px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.up {
+  float: right;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  padding: 5px;
+  margin: 25px 20px 0px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
@@ -363,4 +530,8 @@ footer {
     max-width: 48%;
     padding-bottom: 10px;
   }
+}
+
+.filler {
+  height: 50px;
 }
