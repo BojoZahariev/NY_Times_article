@@ -1,7 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-
 body {
   box-sizing: border-box;
   margin: 0;
@@ -127,6 +123,7 @@ h1 {
   margin: auto;
   height: auto;
   width: 100%;
+  background-color: #000;
 }
 
 .caption {
@@ -145,7 +142,7 @@ h1 {
 
 .container {
   margin: 40px auto;
-  width: 600px;
+  max-width: 600px;
 }
 
 h3 {
@@ -621,6 +618,7 @@ ul.mobi {
     max-width: 48%;
     padding-bottom: 10px;
   }
+
   .top-aside {
     display: none;
   }
