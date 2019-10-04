@@ -1,1 +1,2 @@
-POSITIONING AND FLOATING ELEMENTS
+# The New York Times article
+## Tools: HTML, CSS, JS
